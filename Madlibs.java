@@ -7,8 +7,8 @@ public class Madlibs {
         Scanner sc = new Scanner(System.in);
         //madlibs string
         String madlib1 = "I went to the animal <noun>, the <plural_noun> and the <number> beasts were there.";
-        String madlib2 = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
-        String madlib3 = "I went to the <resterouant> to eat a delicios <food> then I drove home in my <car>";
+        //String madlib = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
+        //String madlib = "I went to the <resterouant> to eat a delicios <food> then I drove home in my <car>";
 
         //finds the word contanied in the <> for fisrt line
         int indexStart1 = madlib1.indexOf("<");
