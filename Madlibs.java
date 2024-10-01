@@ -37,7 +37,7 @@ public class Madlibs {
         String input3 = sc.nextLine();
         madlib1 = madlib1.replaceFirst("<"+sub3+">", input3);
 
-        //pritning out the final line
+        //pritning out the final line with the user words filled in 
         System.out.println(madlib1);
     }
 
