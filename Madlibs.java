@@ -17,7 +17,13 @@ public class Madlibs {
         //printing out the lines and scaning user input for first word 
         System.out.println("Give me a " + sub1);
         String input1 = sc.nextLine();
-        madlib1 = madlib1.replaceFirst("<"+sub1+">", input1);
+        // madlib1 = madlib1.replaceFirst("<"+sub1+">", input1);
+
+        String madlibfirstStart = madlib1.substring(0,indexStart1);
+        String madlibfirstEnd = madlib1.substring(indexEnd1-1);
+        System.out.println(madlibfirstStart);
+        System.out.println(madlibfirstEnd);
+
 
         //finds the second word contanied in the <> for 
         int indexStart2 = madlib1.indexOf("<");
